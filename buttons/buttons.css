@@ -70,3 +70,21 @@ button{
     font-weight: bold;
     border-radius: 0px 0px 0px 13px;
 }
+
+.blind{
+    width: 130px;
+    background-color: #e83e8c;
+    color: white;
+    margin: 0px 0px 0px 15px;
+    border-radius: 8px;
+    transition: opacity 0.3s ,background-color 0.3s, color 0.3s, border 0.3s;
+    border: solid #e83e8c 2px;
+    /* font-weight: bold;
+     */
+}
+.blind:hover{
+    opacity: 0.9;
+    background-color: white;
+    color: #e83e8c;
+    border: solid #e83e8c 2px;
+}
