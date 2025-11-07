@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg_img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.login_box{
+    width: 800px;
+    height: 550px;
+    background-color: white;
+    position: relative;
+    left: 30%;
+    top: 200px;
+}
+.rty_div{
+    background-color: #00486d;
+    width: 50%;
+    height: 100%;
+}
+.logo{
+    width: 310px;
+    position: absolute;
+    left: 6%;
+    top: 20%;
+}
+.para{
+    color: white;
+    font-weight: 600;
+    width: 399px;
+    text-align: center;
+    position: relative;
+    top: 41%;
+}
+.img_link{
+    position: relative;
+    width: 200px;
+    top: 50%;
+    left: 15%;
+}
+.cus{
+    width: 50px;
+}
+.p_link{
+    position: relative;
+    left: 30%;
+    margin: 0;
+    color: white;
+    top: -53px;
+
+}
+.link{
+    color: white;
+    height: 10px;
+    position: relative;
+    left: 30%;
+    top: -48px;
+}
+.lft_div{
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 400px;
+    height: 550px;
+}
+
+.login_hd{
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+p{
+    margin: 0;
+    font-weight: bold;
+    position: relative;
+}
+h3{
+    color: #e83e8c;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+span{
+    color: red;
+}
+input{
+    width: 350px;
+    height: 25px;
+    /* padding-left: 22px; */
+    margin-left: 48px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: solid #ded9d9  1px;
+    background-color: #f2f2f2;
+
+}
+.input_div{
+    position: relative;
+    right: 38px;
+}
+.label{
+}
+.cmp_div{
+
+}
+.comp_name{
+right: 95px;
+margin: 10px 0;
+}
+.usr_div{
+
+}
+.usr_name{
+right: 112px;
+margin: 10px 0;
+
+}
+.pass_div{
+
+}
+.pass{
+right: 117px;
+margin: 10px 0;
+
+}
+.in_pass{
+
+}
+
+.footter{
+    position: relative;
+    top: 64px;
+}
+
+.login_btn{
+    margin-right: 160px;
+    width: 80px;
+    height: 30px;
+    border: 0;
+    opacity: 0.7;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.fb_btn{
+    color: #1ebff0;
+    background-color: white;
+    margin-right: 9px;
+    border: 0;
+    font-weight: bold;
+}
+.fb_link{
+    color: #1ebff0;
+}
+
+input:hover{
+    border: solid #1ebff0 1px;
+}
+input:focus{
+    outline: solid #1ebff0 1px;
+}
+
+.login_btn:hover{
+    cursor: no-drop;
+}
