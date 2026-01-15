@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background-color: #414a4c;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+header {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    margin-top: 20px;
+    height: 25px;
+    color: black;
+}
+header h1{
+    margin: 0;
+    border: solid black 3px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+    background: lightcyan;
+    border-radius: 8px;
+    width: 175px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+header h1:hover{
+    background-color: green;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+main{
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+section{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+section p{
+    font-size: 18px;
+}
+section a{
+    color: white;
+}
+.cakes{
+    flex-direction: row;
+    gap: 75px;
+}
+.cakes .her{
+    height: 275px;
+    cursor: pointer;
+    transition: border 0.2s, height 0.3s, width 0.3s;
+}
+section img{
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+    transition: border 0.2s, height 0.3s, width 0.3s;
+    cursor: pointer;
+}
+
+footer{
+    text-align: end;
+    margin-right: 16px;
+    color: lightgray;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 768px;
+    min-width: 768px;
+    align-items: center;
+}
+
+.contact_form input {
+    background-color: #F7F7FF;
+    height: 26px;
+    width: 250px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+.textarea textarea{
+    width: 250px;
+}
+.contact_form button{
+    height: 27px;
+    width: 83px;
+    background-color: lightgreen;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.contact_form button:hover{
+    background-color: green;
+    color: white;
+}
+section img:hover{
+    width: 255px;
+    height: 320px;
+    border-radius: 6px;
+    border: solid black 3px;
+}
+section .her:hover{
+    width: 255px;
+    height: 320px;
+    border-radius: 6px;
+    border: solid black 3px;
+}
+
+@media (max-width: 768px) {
+    .contact_form div{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .contact_form button{
+        width: 65px;
+    }
+}

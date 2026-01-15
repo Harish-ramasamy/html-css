@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: Arial, sans-serif;
+}
+
+/* why header padding 20px bcz if not the header Text sticks to the edges, Looks cramped, Hard to read */
+header{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* in html browser also add margin and padding the ul even after removing the bullet mark "list-style: none" */
+/* why don't we use p tag bcz if in nav it's list of navigetion if we use p tag then we need to write lot of stlye that's why ul */
+/* display: flex will change the one by one order and give as straigt line of list and for gap we can use even margin-right: 16px; */
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 23px;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+p{
+    padding: 20px;
+    margin: 0;
+}
+/* why we need margin here the P tag has default margin then why bcz if there no margin in section then every section will combined that's why. */
+section {
+    margin-bottom: 25px;
+}
+
+nav a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 16px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 24px;
+} */
+
+
+@media (min-width: 768px){
+    nav ul {
+            flex-direction: row;
+        }
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
