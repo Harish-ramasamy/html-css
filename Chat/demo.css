@@ -6,12 +6,15 @@ body {
 
 /* why header padding 20px bcz if not the header Text sticks to the edges, Looks cramped, Hard to read */
 header{
-    padding: 20px;
+    padding: 24px;
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+main{
+  margin: 32px 20px;
 }
 
 /* in html browser also add margin and padding the ul even after removing the bullet mark "list-style: none" */
@@ -80,6 +83,15 @@ section {
   margin-bottom: 24px;
 } */
 
+div{
+  width: 100px;
+  height: 80px;
+  background-color: lightcoral;
+}
+article{
+  display: grid;
+  gap: 25px
+}
 
 @media (min-width: 768px){
     nav ul {
@@ -89,5 +101,8 @@ section {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+    article{
+      grid-template-columns: 2fr 1fr;
     }
 }
