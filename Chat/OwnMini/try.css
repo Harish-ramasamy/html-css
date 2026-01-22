@@ -67,7 +67,8 @@ figure img{
 
 figure{
     margin: 0;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 350px;
     text-align: center;
     background-color: lightgray;
@@ -106,4 +107,19 @@ figure{
 footer{
     text-align: end;
     margin-right: 12px;
+}
+
+@media (max-width: 768px){
+    article{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+    figure{
+        max-width: 400px;
+    }
+    header{
+        width: 100%;
+    }
 }
