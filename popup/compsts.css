@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 6px;
 }
 
 main{
@@ -16,7 +17,7 @@ main{
 svg{
     width: 27px;
     height: 27px;
-    margin-left: 10px;
+    margin-left: 14px;
     color: rgb(74 222 128);
 }
 
@@ -32,15 +33,34 @@ strong{
 
 .body p {
     margin: 0;
-    padding: 0 14px 0 0;
+    padding: 0 14px 0 52px;
     color: rgb(21 128 61);
-    margin-left: 44px;
+    /* margin-left: 44px; */
 }
 
 footer {
     /* text-align: center; */
     display: flex;
     flex-direction: row;
-    gap: 34px;
+    gap: 65px;
     justify-content: center;
 }
+
+.view, .dismiss{
+    border: none;
+    background-color: #ECFDF5;
+    color: rgb(22 101 52);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 8px;
+    border-radius: 5px;
+}
+
+.dismiss{
+    margin-right: 15px;
+}
+.dismiss:hover, .view:hover{
+    background-color: #D1FAE5;
+}
+
