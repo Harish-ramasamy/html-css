@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: "Exo 2", Sans-serif;
+}
+
+.fixed {
+    /* position: fixed; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 85px;
+    text-align: center;
+    gap: 0;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.compnamewrap svg {
+    width: 27px;
+    height: 27px;
+}
+
+.compname {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    transition: text-decoration 1s;
+}
+
+.bodyheader {
+    height: 375;
+    background-color: #0066cc;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bodyheader h1 {
+    margin: 0;
+    font-size: 52;
+    color: white;
+    font-size: bold;
+}
+
+.bodyheader p {
+    padding: 0;
+    color: white;
+    font-size: 25px;
+    margin: 21px;
+}
+
+.bodyheader button {
+    width: 123px;
+    height: 42px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.4s ease;
+    border: none;
+}
+
+article svg {
+    width: 45px;
+    height: 45px;
+    color: 0066cc;
+}
+
+section h2 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1a1a2e;
+}
+
+.service p {
+    margin: 0px auto;
+    color: #666;
+    word-spacing: 4px;
+}
+
+.service button{
+    width: 164px;
+    height: 36px;
+    color: #0066cc;
+    background-color: #ffffff;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.service article {
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.service article p {
+    margin: 0;
+    font-size: 16px;
+    padding: 0 31px;
+}
+
+.service {
+    background-color: rgb(248, 249, 250);
+    height: 495px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 28px;
+
+}
+
+.serviceWrap {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.bodyheader button:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+.service button:hover{
+    color: white;
+    background-color:#0066cc;
+}
+
+.service article:hover{
+    border-top: solid #0066cc 8px;
+    box-shadow: 0 15px 40px rgba(0, 102, 204, 0.2);
+}
