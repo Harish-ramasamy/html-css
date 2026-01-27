@@ -99,10 +99,10 @@ section h2 {
     color: #1a1a2e;
 }
 
-.service p {
+.plan, .service p {
     margin: 0px auto;
     color: #666;
-    word-spacing: 4px;
+    word-spacing: 2px;
 }
 
 .service button{
@@ -156,6 +156,73 @@ section h2 {
     gap: 16px;
 }
 
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.palnwrap article {
+    width: 386px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+
+}
+.price{
+    font-size: 42px;
+    color: #0066cc;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.subhead{
+    color: black;
+    font-size: 22px;
+}
+
+.palnwrap article ul {
+     list-style: none;
+     display: grid;
+     grid-template-columns: 1fr 4fr;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     padding: 0;
+     padding-right: 26px;
+}
+
+.palnwrap li p{
+    color: #1a1a2e;
+    border-bottom: solid #eee 1px;
+}
+
+.palnwrap svg{
+    width: 20px;
+}
+
+.palnwrap h4{
+    margin: 16px auto;
+}
+.palnwrap button{
+    height: 38px;
+    width: 129px;
+    border-radius: 19px;
+    background-color: white;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
 nav a:hover {
     text-decoration: underline;
 }
@@ -165,12 +232,23 @@ nav a:hover {
     color: white;
 }
 
-.service button:hover{
+.palnwrap button:hover,.service button:hover{
     color: white;
     background-color:#0066cc;
 }
 
-.service article:hover{
+.palnwrap article:hover,.service article:hover{
     border-top: solid #0066cc 8px;
     box-shadow: 0 15px 40px rgba(0, 102, 204, 0.2);
+}
+
+.palnwrap article:hover{
+    background-color: #0372e0;
+    p{
+        color: white;
+    }
+    button:hover{
+        background-color: #000080;
+        color: white;
+    }
 }
