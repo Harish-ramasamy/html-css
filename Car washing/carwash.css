@@ -58,6 +58,7 @@ nav li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 16px auto;
 }
 
 .bodyheader h1 {
@@ -97,6 +98,7 @@ section h2 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #1a1a2e;
+    margin-top: 12px
 }
 
 .plan, .service p {
@@ -147,7 +149,7 @@ section h2 {
     text-align: center;
     align-items: center;
     gap: 28px;
-
+    margin: 16px auto;
 }
 
 .serviceWrap {
@@ -162,6 +164,7 @@ section h2 {
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: 16px auto;
 }
 
 .palnwrap article {
@@ -231,6 +234,7 @@ section h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 24px auto;
 }
 
 .whywrap{
@@ -259,6 +263,104 @@ section h2 {
 }
 .highlig{
     font-size: 26px;
+}
+
+.galry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 24px auto;
+}
+
+.imgwrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.imgsize {
+    width: 388px;
+    height: 346px;
+    border-radius: 16px;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: rgb(248, 249, 250);
+    margin: 16px auto;
+}
+
+.revwrap{
+    width: 350px;
+    height: 264px;
+    background-color: rgb(248, 249, 250);
+}
+
+.contus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.formdiv {
+    width: 522px;
+    height: 518px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.formdiv form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 24px;
+    height: 100%;
+    width: 369px;
+}
+
+.namewrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.formdiv form input, select {
+    height: 42px;
+    border-radius: 8px
+}
+
+.formdiv form textarea{
+    height: 68px;
+    margin-bottom: 16px;
+}
+
+.namewrap input {
+    max-width: 182px;
+}
+.locdiv {
+    background-color: rgb(248, 249, 250);
+    width: 522px;
+    height: 518px;
+    border-radius: 16px;
+}
+.contuswrap{
+    width: 1256px;
+    height: 546px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
 }
 
 nav a:hover {
