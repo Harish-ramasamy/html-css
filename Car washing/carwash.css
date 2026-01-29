@@ -400,6 +400,81 @@ section h2 {
     gap: 24px;
 }
 
+footer{
+    background-color: #1a1a2e;
+    height: 486px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footerrow {
+    height: 100%;
+    max-width: 1026px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px
+}
+.footerdisc{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footerdisc a, p{
+    color: white;
+}
+.footerdisc p{
+    width: 418px;
+}
+
+.socialsvg {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialsvg svg{
+    margin-right: 16px;
+    width: 24px;
+    height: 22px;
+    border: solid #0066cc 8px;
+    border-radius: 17px;
+}
+.qlink p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.qlink ul {
+     list-style: none;
+     width: 98px;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     gap: 16px;
+}
+.qlink li{
+    display: flex;
+    justify-content: space-around;
+}
+.qlink a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.qlink svg{
+    color: white;
+    width: 20px;
+    height: 16px;
+}
+.ourser{
+    width: 264px;
+}
+
 nav a:hover {
     text-decoration: underline;
 }
