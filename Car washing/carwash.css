@@ -90,7 +90,7 @@ nav li a {
 article svg {
     width: 45px;
     height: 45px;
-    color: 0066cc;
+    color: #0066cc;
 }
 
 section h2 {
@@ -348,12 +348,49 @@ section h2 {
 .namewrap input {
     max-width: 182px;
 }
+
+.loccont p, .loccont h4{
+    margin: 0;
+    margin-bottom: 12px;
+}
 .locdiv {
     background-color: rgb(248, 249, 250);
     width: 522px;
     height: 518px;
     border-radius: 16px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+.locmsg{
+    font-size: 24px;
+}
+.adrs{
+    color: #666;
+    width: 208px;
+    margin: 0 auto;
+}
+.phnsvg{
+    margin: 13px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.phnsvg svg{
+    width: 22px;
+    height: 19px;
+}
+.email{
+    color: #1a1a2e;
+}
+
+.email svg{
+    width: 18px;
+    height: 17px;
+}
+
 .contuswrap{
     width: 1256px;
     height: 546px;
