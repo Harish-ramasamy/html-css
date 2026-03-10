@@ -88,3 +88,13 @@ button{
     color: #e83e8c;
     border: solid #e83e8c 2px;
 }
+
+.anm {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.anm:hover {
+  transform: scale(1.05);
+}
