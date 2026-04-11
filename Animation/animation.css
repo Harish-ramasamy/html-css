@@ -25,7 +25,21 @@
     animation: toLeft 2s ease 0.3s both;
 }
 .right-side{
-    animation: toRight 2s 0.3s both;
+    animation: toRight 2s ease 0.3s both;
+}
+.navbar-text{
+    margin-top: 26px;
+    background-color: rgb(102, 117, 117);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+
+}
+.list{
+    display: flex;
+    gap: 26px;
 }
 
 @keyframes fadeup {
