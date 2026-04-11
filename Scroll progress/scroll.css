@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+header .header-div{
+    height: 120px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.hero-sec{
+    height: 798px;
+    background-color: rgb(52, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+.to-top{
+    width: 120px;
+    border-radius: 18px;
+    height: 29px;
+    margin-bottom: 12px;
+}
